@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-fonts {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+.dark-1 {
+    color: #131313;
+}
+
+.dark-2 {
+    color: #424242;
+}
+
+.dark-3 {
+    color: #727272;
+}
+
+.section-tittle {
+
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+
+.section-description {
+    color: #424242;
+}
+
+.btn-primary {
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 8px;
+    color: white;
+    background-color: #FF900E;
+    padding: 20px 25px;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 130px;
+}
+
+/* header related styles */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-links {
+
+    list-style: none;
+    gap: 30px;
+
+}
+
+.items a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #424242;
+
+}
+
+.navbar,
+.brand {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* brand related styles */
+.brand-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#brand-tittle {
+    font-size: 4rem;
+    color: #131313;
+    font-weight: 700;
+
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/* our-team related styles */
+.our-team {
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.team-detail-container {
+    max-width: 537px;
+    margin: 0 auto;
+}
+
+.our-team-img {
+    width: 100%;
+}
+
+#quick-list {
+
+    font-weight: 400;
+}
+
+#features {
+    color: #FF900E;
+}
+
+
+/* feature related styles */
+.feature {
+    justify-content: center;
+    align-items: center;
+    gap: 146px;
+}
+
+.feature-content {}
+
+#feature-tittle {
+
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+
+}
+
+.feature-card {
+    border-radius: 8px;
+    max-width: 586px;
+    border: none;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.feature-card-tittle {
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin: 0;
+}
+
+
+
+#year-exprience {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#exprience {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#tenyear-exprience-btn {
+
+    margin-top: -77px;
+    margin-left: -92px;
+}
+
+
+
+/* responsive media quarry for small device */
+
+@media screen and (max-width:576px) {
+
+    .navbar,
+    .item-links,
+    .our-team,
+    .feature {
+        flex-direction: column;
+    }
+
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #tenyear-exprience-btn {
+
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .architect-img {
+        max-width: 100%;
+    }
+
+}

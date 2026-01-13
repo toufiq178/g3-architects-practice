@@ -46,6 +46,7 @@
     color: white;
     background-color: #FF900E;
     padding: 20px 25px;
+    cursor: pointer;
 }
 
 main {
@@ -227,8 +228,19 @@ header {
 
 }
 
+/* our-sponsor related styles */
+.our-sponsor{
 
-
+    text-align: center;
+}
+.sponsor-img-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+    filter: grayscale(100%);
+    margin-top: 50px;
+    justify-items: center;
+}
 
 
 /* responsive media quarry for small device */
@@ -243,7 +255,8 @@ header {
     }
 
     .team-img-container 
-    ,.facts-card-container {
+    ,.facts-card-container 
+    ,.sponsor-img-container{
         grid-template-columns: repeat(1, 1fr);
     }
 
